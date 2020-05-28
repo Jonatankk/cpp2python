@@ -1,0 +1,27 @@
+int main () {
+    int rep, jog, casos = 1, a, b, c, d, e, f, g, h, i, aux;
+    scanf ("% d", & rep);
+    while (rep -) {
+        scanf ("% d", & jog);
+        if (jog == 3) {
+            scanf ("% d% d% d", & a, & b, & c);
+            aux = b;
+        }
+        if (jog == 5) {
+            scanf ("% d% d% d% d% d", & a, & b, & c, & d, & e);
+            aux = c;
+        }
+        if (jog == 7) {
+            scanf ("% d% d% d% d% d% d% d", & a, & b, & c, & d, & e, & f, & g);
+            aux = d;
+        }
+        if (jog == 9) {
+            scanf ("% d% d% d% d% d% d% d% d% d", & a, & b, & c, & d, & e, & f, & g, & h, & i);
+            aux = e;
+        }
+        printf ("Caso% d:% d \ n", casos, aux);
+        casos ++;
+    }
+    retornar 0;
+    
+    
